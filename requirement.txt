@@ -5,3 +5,7 @@ statsmodels
 scapy
 ryu
 mininet
+pmdarima
+scikit-learn
+numpy
+seaborn
