@@ -19,7 +19,7 @@ This project aims to analyze traffic patterns and predict traffic within Softwar
 ## Implementation Flow
 To achieve the goal of analyze traffic patterns and predict traffic in a SDN network, a model is build on the application plane.
 
-![Implementation Flow](_readme_images/implementation_flow.png)
+![SDN Traffic Prediction](https://github.com/user-attachments/assets/eb8d0c66-4a2d-4618-9a8b-e040ad74578f)
 
 The architecture of implemented method consists of a first step where the network is initialize to a procedurely generated topology. Then, we generate the traffic on the newtork and capture the packets that flow amomg the switches. Before training the model we process it and extract only the amount of data flowing in a time-step. Only 80% of the data is used to train the model the rest is used for testing.
 
