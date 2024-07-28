@@ -1,0 +1,7 @@
+matplotlib
+networkx
+pandas
+statsmodels
+scapy
+ryu
+mininet
